@@ -1,0 +1,274 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "GIlroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+
+    
+}
+#fullscreen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6D6D6;
+}
+#overlay{
+    height: 100%;
+    width: 60%;
+    background-color: #A98358;
+    clip-path: polygon(9% 0, 86% 0, 66% 48%, 86% 100%, 7% 100%, 27% 50%);
+}
+#main{
+    height: 80%;
+    width: 90%;
+    background-color:#D6D6D6;
+   border: 15px solid black;
+   border-radius: 20px;
+   position: relative;
+   position: absolute;
+}
+#nav{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#nav-left{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+}
+#circle{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: center;
+
+    
+    height: 100% ;
+    width: 50%;
+    
+}
+#circle1{
+    height: 65px;
+    width: 65px;
+    background-color: #CC2D28;
+    border-radius: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    color: #D6D6D6;
+    
+}
+#circle1>h2{
+    font-family:"titillium web";
+     font-size: 40px;
+     font-weight: 550;
+}
+
+#dot{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 25px;
+    
+}
+#icon1{
+    height: 100% ;
+    width: 50%;
+    
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    padding-bottom: 25px;
+}
+#icon1> i{
+    font-size: 28px;
+    font-weight: 750;
+}
+#nav-right{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+#half1{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#pic1{
+    height: 10px;
+    width: 21px;
+    background-image: url(https://media.istockphoto.com/id/486407806/vector/union-jack.jpg?s=612x612&w=0&k=20&c=KPRndA_Czak9T0w_Eq3GnhRaNxERiEiw2cjZe5GBY-E=);
+    background-position: center;
+    background-size:cover;
+}
+#dot1{
+    height: 5px;
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.675);
+    border-radius: 50%;
+}
+#eng >h3{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.806);
+}
+#half2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center; 
+    padding-left: 20px; 
+    padding-bottom: 5px;
+}
+#half2>i{
+    font-size: 20px;
+    font-weight: 950;
+    color: rgba(0, 0, 0, 0.806);
+}
+#main-scr{
+    height: 100%;
+    width: 60%;
+    background-color: #A98358;
+    position: absolute;
+    left: 18%;
+    top: 0;
+    clip-path: polygon(12% 0, 89% 0, 72% 52%, 89% 100%, 80% 100%, 20% 100%, 10% 100%, 29% 51%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+
+}
+#center{
+    scale: .89;
+}
+#dots{
+    height: 20px;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+#d1{
+    background-color: #d6d6d6d6;
+}
+#red{
+    position: absolute;
+    top: 53%;
+    left: 8%;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#red h4{
+    font-size: 32px;
+    font-family:"titillium web";
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.54);
+}
+#red h1{
+    font-size: 50px;
+    font-family:"titillium web";
+    line-height: 1;
+    font-weight: 650;
+}
+#red h3{
+    font-size: 18px;
+    font-family:"titillium web";
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.622);
+}
+#arrow{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#l{
+    height: 130px;
+    width: 81px;
+    background-color: #CC2D28;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 75% 100%, 75% 54%, 75% 0);
+    position: absolute;
+    left: -61px;
+}
+#r{
+    height: 130px;
+    width: 61px;
+    position: absolute;
+    right: -37px;
+    background-color: #CC2D28;
+    clip-path: polygon(40% 0%, 40% 20%, 40% 20%, 40% 80%, 40% 80%, 40% 100%, 0% 50%);
+}   
+#bottom{
+    height: 25px;
+    width: 10%;
+    position: absolute;
+    top: 88%;
+    left: 81%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bottom>h4{
+    font-style: 5px;
+    font-weight: 600;
+}
+#img{
+    height: 85%;
+    width: 25%;
+    background-color: #CC2D28;
+    position: absolute;
+    left: 57.5%;
+    top: 8.5%;
+    
+
+    clip-path: polygon(49% 0, 86% 49%, 50% 100%, 14% 51%);
+}
+#one{
+    position: absolute;
+    left: 57.5%;
+    top: 8.5%;
+    scale: .5;
+
+}
+#two{
+    position: absolute;
+    rotate: 89.5deg;
+   left: 49%;
+   top: -44.6%;
+   /* scale: .9; */
+}
